@@ -1,0 +1,387 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-size: 18px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: "Rufina", serif;
+  max-width: 100%;
+}
+
+header {
+  max-width: 100%;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+header .container .left_head .icon_1 {
+  height: 55px;
+  width: 55px;
+}
+header .container .right_head ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  color: #000000;
+}
+header .container .right_head ul li a {
+  color: #000000;
+}
+header .container .right_head ul li .btn_1 {
+  background-color: #000;
+  color: #fff;
+  width: 150px;
+  height: 40px;
+  border: none;
+}
+
+.Freelancer {
+  padding-top: 45px;
+  max-width: 100%;
+  background: #F5F5F5;
+}
+.Freelancer .Brian .left_wrap {
+  display: block;
+}
+.Freelancer .Brian .left_wrap .h_1 {
+  font-family: "Rufina", serif;
+  font-size: 76px;
+  font-weight: 700;
+  line-height: 1.5;
+  font-style: bold;
+}
+.Freelancer .Brian .left_wrap .para_1 {
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.3;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+.Freelancer .Brian .left_wrap .btn_1 {
+  background-color: #000;
+  color: #fff;
+  width: 150px;
+  height: 40px;
+  margin-right: 25px;
+}
+.Freelancer .Brian .left_wrap .btn_2 {
+  border: none;
+  padding: 5px;
+  width: 150px;
+  background-color: none;
+}
+.Freelancer .Brian .left_wrap .btn_2 img {
+  height: 25px;
+  width: 25px;
+  background-color: none;
+  border: none;
+}
+.Freelancer .Brian .left_wrap .social {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  gap: 30px;
+  padding-top: 100px;
+}
+.Freelancer .Brian .left_wrap .social a img {
+  height: 25px;
+  width: 25px;
+}
+.Freelancer .Brian .right_wrap .Banner {
+  max-width: 100%;
+  height: 630px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.Freelancer .Clients {
+  background-color: rgb(74, 121, 115);
+  max-width: 100%;
+}
+.Freelancer .Clients .para_2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  padding-top: 100px;
+}
+.Freelancer .Clients .main_img {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 15px;
+  padding: 35px;
+}
+.Freelancer .Clients .main_img .icon_2 {
+  height: 80px;
+  width: 200px;
+}
+.Freelancer .Write {
+  padding-top: 120px;
+  border: none;
+  max-width: 100%;
+}
+.Freelancer .Write .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+}
+.Freelancer .Write .container .para {
+  font-size: 20px;
+  color: #000;
+  text-align: left;
+  max-width: 655px;
+  padding-left: 120px;
+}
+.Freelancer .Write .container .head {
+  font-size: 42px;
+  color: #000;
+  text-align: center;
+  max-width: 450px;
+  font-weight: 600;
+  padding-right: 40px;
+  padding-left: 0;
+}
+.Freelancer .Write .container .head .h_2 {
+  text-align: left;
+}
+.Freelancer .card {
+  padding: 75px 0;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.Freelancer .card .blogging {
+  max-width: 33%;
+  padding-right: 25px;
+}
+.Freelancer .card .blogging .h_3 {
+  color: #000;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+}
+.Freelancer .card .blogging .para_4 {
+  padding: 25px 0 25px 0px;
+  text-align: left;
+  font-size: 18px;
+  max-width: 550px;
+}
+.Freelancer .card .blogging .btn_1 {
+  background-color: #000;
+  color: #fff;
+  width: 170px;
+  height: 40px;
+  border: none;
+}
+.Freelancer .card .blogging .btn_1 img {
+  height: 35px;
+  width: 35px;
+  background-color: #fff;
+  padding: 10px;
+  border: none;
+}
+.Freelancer .card .marketing {
+  max-width: 33%;
+  padding-left: 25px;
+}
+.Freelancer .card .marketing .h_3 {
+  color: #000;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+}
+.Freelancer .card .marketing .para_4 {
+  padding: 25px 0 25px 0;
+  text-align: left;
+  font-size: 18px;
+}
+.Freelancer .card .marketing .btn_1 {
+  background-color: #000;
+  color: #fff;
+  width: 170px;
+  height: 40px;
+  border: none;
+}
+.Freelancer .card .marketing .btn_1 img {
+  height: 35px;
+  width: 35px;
+  background-color: #fff;
+  padding: 10px;
+  border: none;
+}
+.Freelancer .card .web {
+  max-width: 33%;
+  padding-left: 35px;
+}
+.Freelancer .card .web .h_3 {
+  color: #000;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+}
+.Freelancer .card .web .para_4 {
+  padding: 25px 0 25px 0;
+  text-align: left;
+  font-size: 18px;
+}
+.Freelancer .card .web .btn_1 {
+  background-color: #000;
+  color: #fff;
+  width: 170px;
+  height: 40px;
+  border: none;
+}
+.Freelancer .card .web .btn_1 img {
+  height: 35px;
+  width: 35px;
+  background-color: #fff;
+  padding: 10px;
+  border: none;
+}
+.Freelancer .founder {
+  max-width: 100%;
+  padding-top: 50px;
+}
+.Freelancer .founder .right_box {
+  padding-top: 145px;
+}
+.Freelancer .founder .right_box h2 {
+  font-size: 32px;
+  font-weight: 500;
+  text-align: left;
+}
+.Freelancer .founder .right_box .para_5 {
+  font-size: 20px;
+  padding-top: -5px;
+  text-align: left;
+}
+.Freelancer .founder .right_box .para_6 {
+  padding-top: 80px;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: left;
+}
+.Freelancer .founder .left_box {
+  padding-top: 75px;
+}
+.Freelancer .founder .left_box img {
+  width: 100%;
+  height: 550px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.Freelancer .pitches {
+  max-width: 100%;
+  padding-top: 100px;
+}
+.Freelancer .pitches .left_side h2 {
+  font-size: 38px;
+  font-weight: 600;
+  list-style: 1.5;
+  text-align: left;
+  max-width: 650px;
+  padding-left: 190px;
+}
+.Freelancer .pitches .left_side .para_7 {
+  padding-top: 85px;
+  text-align: left;
+  padding-left: 190px;
+  max-width: 650px;
+}
+.Freelancer .pitches .right_side .para_7 {
+  padding-top: 190px;
+  text-align: left;
+  padding-left: 95px;
+  max-width: 650px;
+}
+.Freelancer .awards {
+  max-width: 100%;
+  padding-top: 85px;
+}
+.Freelancer .anne {
+  max-width: 100%;
+  padding-top: 165px;
+}
+.Freelancer .anne .maria .annie_img {
+  width: 100%;
+  border: none;
+  height: auto;
+}
+.Freelancer .anne .director .p_1 {
+  font-size: 32px;
+  font-weight: 500;
+  padding-left: 85px;
+  padding-bottom: 0;
+}
+.Freelancer .anne .director .p_2 {
+  font-size: 20px;
+  padding-left: 85px;
+  padding-top: -10px;
+}
+.Freelancer .anne .director .p_3 {
+  font-size: 34px;
+  font-weight: 600;
+  padding-left: 85px;
+  padding-top: 45px;
+  line-height: 1.2;
+  max-width: 675px;
+}
+.Freelancer footer {
+  background: #F5F5F5;
+  padding-top: 145px;
+  max-width: 100%;
+}
+.Freelancer footer .foot_left {
+  padding-top: 95px;
+}
+.Freelancer footer .foot_left .p_4 {
+  text-align: left;
+  font-size: 37px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+.Freelancer footer .foot_left h2 {
+  padding-top: 15px;
+}
+.Freelancer footer .foot_left h2 a {
+  font-size: 94px;
+  font-weight: 800;
+  text-align: left;
+  color: #000;
+}
+.Freelancer footer .foot_left .sub_foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 200px;
+}
+.Freelancer footer .foot_left .sub_foot .p_5 {
+  text-align: left;
+}
+.Freelancer footer .foot_left .sub_foot .icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.Freelancer footer .foot_left .sub_foot .icons .img_f {
+  height: 25px;
+  width: 25px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.Freelancer footer .foot_left .right_foot {
+  max-width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}/*# sourceMappingURL=styles.css.map */
